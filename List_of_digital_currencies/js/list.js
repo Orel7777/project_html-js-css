@@ -1,21 +1,23 @@
 import Crypto from "./crypto_class.js";
+import { list_of_crypto } from "./list_crypto.js";
 
 const init =()=>{
   declareBtns();
   handleResize();
   window.addEventListener('resize', handleResize);
-  doApi();
+  // doApi();
+  createCoins(list_of_crypto);
 }
 
 
-const doApi = async ()=>{
-  let url = `http://fs1.co.il/bus/bitcoin.php`;
-  document.querySelector("#id_parent").innerHTML = `<h1 style="color:red">Loading...</h1>`;
-  let resp = await fetch(url);
-  let data = await resp.json();
-  console.log(data)
-  createCoins(data)
-}
+// const doApi = async ()=>{
+//   let url = `http://fs1.co.il/bus/bitcoin.php`;
+//   document.querySelector("#id_parent").innerHTML = `<h1 style="color:red">Loading...</h1>`;
+//   let resp = await fetch(url);
+//   let data = await resp.json();
+//   console.log(data)
+//   createCoins(data)
+// }
 
 const createCoins = (_ar)=>{
   document.querySelector("#id_parent").innerHTML = "";

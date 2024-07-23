@@ -1,23 +1,25 @@
 import Prod from './prodClass.js'
+import { shop_list } from './shop_ar.js';
 
 const init = () => {
-    doApi();
+    // doApi();
     declareBtns();
     window.addEventListener('resize', handleResize);
+    createAllProducts(shop_list)
 }
 
 
-const doApi = async () => {
-    let url = `http://fs1.co.il/bus/shop.php`;
-    try {
-        let resp = await axios.get(url);
-        console.log(resp.data);
-        createAllProducts(resp.data);
-    }
-    catch (error) {
-        console.log(error, "Error getting")
-    }
-}
+// const doApi = async () => {
+//     let url = `http://fs1.co.il/bus/shop.php`;
+//     try {
+//         let resp = await axios.get(url);
+//         console.log(resp.data);
+//         createAllProducts(resp.data);
+//     }
+//     catch (error) {
+//         console.log(error, "Error getting")
+//     }
+// }
 
 const createAllProducts = (_ar) => {
     _ar.forEach((item)=>{
