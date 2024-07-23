@@ -1,17 +1,19 @@
 import VipClass from "./vipClass.js";
+import { rich_people } from "./list_rich.js";
 
 const init = () => {
-    doApi();
+    // doApi();
+    createAllVip(rich_people)
     declareBtns();
     window.addEventListener('resize', handleResize);
 }
 
-const doApi = async () => {
-    let url = `http://fs1.co.il/bus/vip.php`;
-    let resp = await axios.get(url);
-    // console.log(resp.data)
-    createAllVip(resp.data);
-}
+// const doApi = async () => {
+//     let url = `https://fs1.co.il/bus/vip.php`;
+//     let resp = await axios.get(url);
+//     // console.log(resp.data)
+//     createAllVip(resp.data);
+// }
 
 const createAllVip = (_ar) => {
     _ar.forEach(item => {
