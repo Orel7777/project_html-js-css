@@ -20,7 +20,7 @@ export default class VipClass {
         `
         let btn =document.createElement("button");
         btn.innerHTML = "Show age"
-        btn.className = "btn btn-success"
+        btn.className = "shadow-sm my-2 p-2 d-flex justify-content-between align-items-center"
         div.append(btn)
         btn.addEventListener("click", () => {
             let dt = new Date();
