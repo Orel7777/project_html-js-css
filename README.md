@@ -1,6 +1,6 @@
 
 
-My Multi-Application Project 📚💻
+# My Multi-Application Project 📚💻
 Welcome to my multi-application project! This repository contains several web applications built with HTML, CSS, and JavaScript. Below is a description of each application included in this project.
 
 Applications Included
