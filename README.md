@@ -1,9 +1,15 @@
-
-
 # My Multi-Application Project 📚💻
-Welcome to my multi-application project! This repository contains several web applications built with HTML, CSS, and JavaScript. Below is a description of each application included in this project.
+Welcome to my multi-application project! This repository contains several web applications built with HTML, CSS, JavaScript, and the Bootstrap library. Below is a detailed description of each application included in this project.
 
-Applications Included
+# Getting Started
+Each application is located in its own folder. To run an application, navigate to the application's folder and open the index.html file in your web browser.
+
+Access the Online Version
+You can also access the applications via the following domain:
+Project HTML-JS-CSS
+
+# Applications Included:
+
 🎬 Movie Search Engine
 A user-friendly application where you can search for any movie and get detailed information about it.
 
