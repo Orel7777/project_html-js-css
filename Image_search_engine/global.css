@@ -1,0 +1,38 @@
+.box_card{
+    background-size: cover;
+    background-position: center;
+    min-height: 150px;
+}
+
+
+@media (max-width: 991px) {
+
+    .navbar-nav{
+        display: none;
+        position: absolute !important;
+        background: white;
+        border: 1px solid gray;
+        top: 56px;
+        right: 0;
+        flex-direction: column;
+        padding: 8px;
+        z-index: 10;
+    }
+    .nav-item{
+        background: white;
+    }
+    .btn{
+        width: 100%;
+        border: 1px solid gray;
+        padding: 5px;
+        margin: 3px;
+    }
+    
+    #input_search{
+        width: 70%;
+    }
+    #btn_search{
+        width: 30%;
+    }
+  
+    }
