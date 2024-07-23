@@ -22,6 +22,7 @@
         "label": "off",
         "select-name": "off"
       }
-    ]
+    ],
+    "button-type": "off"
   }
 }
