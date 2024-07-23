@@ -1,6 +1,4 @@
 
-Memory updated
-Sure, here's a well-structured README.md file for your GitHub project:
 
 My Multi-Application Project 📚💻
 Welcome to my multi-application project! This repository contains several web applications built with HTML, CSS, and JavaScript. Below is a description of each application included in this project.
