@@ -6,7 +6,7 @@ Each application is located in its own folder. To run an application, navigate t
 
 Access the Online Version
 You can also access the applications via the following domain:
-Project HTML-JS-CSS
+https://orel7777.github.io/Project_html-js-css/
 
 # Applications Included:
 
